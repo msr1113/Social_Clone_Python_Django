@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.core.urlreslovers import reverse_lazy
+from django.urls import reverse_lazy
 from django.views.generic import CreateView
 
 from . import forms
